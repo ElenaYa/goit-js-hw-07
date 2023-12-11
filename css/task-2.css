@@ -1,0 +1,22 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  justify-content: center;
+  column-gap: 24px;
+  list-style-type: none;
+  padding: 100px 156px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+img {
+  background: lightgray -0.011px -77px / 100.006% 150% no-repeat;
+  max-width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+.gallery li {
+  width: calc((100% - 48px) / 3);
+  box-sizing: border-box;
+}
